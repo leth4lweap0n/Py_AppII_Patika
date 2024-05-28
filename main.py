@@ -2,7 +2,7 @@ posArr = [(452, 852), (365,782 ), (328, 721), (492,799 )]
 distArr = []
 fMinDist = 0.0
 
-def EuclideannDistance(posI,posII):
+def EuclideanDistance(posI,posII):
     xI, yI = posI
     xII, yII = posII
     distance = ((xII - xI) ** 2 + (yII - yI) ** 2) ** 0.5
